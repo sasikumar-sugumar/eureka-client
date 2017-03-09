@@ -1,0 +1,9 @@
+version: '2'
+services:
+  read-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.graphservice
+    ports: 
+      - "8090"
+      
